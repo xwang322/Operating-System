@@ -1,0 +1,5 @@
+when records are created in generate.c, keys are generated as:
+
+r.key = rand() % (unsigned int) 0xFFFFFFFF;
+
+rand() returns an integer value in the range of [0,RAND_MAX] and the RAND_MAX value in /usr/include/stdlib.h is 2147483647. So if I am not mistaken in my interpretation of the code, none of the keys will have values which are between 2^31 and 2^32-1. 

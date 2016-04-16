@@ -1,0 +1,6 @@
+echo check hist data
+check hist data
+ls > 1.txt 2.txt
+history
+1 echo check hist data
+2 history

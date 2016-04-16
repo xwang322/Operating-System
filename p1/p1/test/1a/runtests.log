@@ -1,0 +1,42 @@
+starting build
+
+**********************************************************************
+
+Test build
+build project using make
+
+**********************************************************************
+Trying to clean project using make clean
+make clean
+rm -f runtests
+rm -f *.pyc
+rm -f dupdata selectedrecs generate
+Trying to build project using make
+make
+echo "#!/bin/bash" > runtests
+echo "base=~cs537-1/ta/tests/1a" >> runtests
+echo "python \$base/project1a.py --test-path \$base \$@"\
+		" | tee runtests.log" >> runtests
+echo "exit \$?" >> runtests
+chmod a+x runtests
+gcc -O -Wall -o generate generate.c
+./generate -o dupdata.tmp -s 0 -n 3
+dd if=/dev/zero bs=100 count=2 | cat - dupdata.tmp > dupdata
+2+0 records in
+2+0 records out
+200 bytes (200 B) copied, 3.6755e-05 s, 5.4 MB/s
+rm -f dupdata.tmp
+./generate -o selectedrecs.tmp -s 10 -n 5 | cat - selectedrecs.tmp > selectedrecs
+rm -f selectedrecs.tmp
+Trying to build using gcc
+gcc -O -Wall -o rangesort rangesort.c -I/afs/cs.wisc.edu/p/course/cs537-dusseau/ta/tests/1a
+gcc: rangesort.c: No such file or directory
+gcc: no input files
+
+
+test build FAILED
+ (build project using make)
+ gcc returned error 1
+
+Skipped 24 tests.
+To keep testing after failing a test, use flag '-c' or '--continue'

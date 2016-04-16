@@ -1,0 +1,4 @@
+echo "start"
+/bin/ls /u/
+!2
+history

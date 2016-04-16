@@ -1,0 +1,7 @@
+echo start
+start
+echo run
+run
+echo test
+test
+history 2

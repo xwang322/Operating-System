@@ -1,0 +1,173 @@
+starting build
+
+**********************************************************************
+
+Test build
+build project using make
+
+**********************************************************************
+Trying to clean project using make clean
+make clean
+make: *** No rule to make target `clean'.  Stop.
+Trying to build project using make
+make
+make: *** No targets specified and no makefile found.  Stop.
+Trying to build using gcc
+gcc -O -Wall -o rangesort rangesort.c -I/afs/cs.wisc.edu/p/course/cs537-dusseau/ta/tests/1a-contest
+
+
+test build PASSED
+ (build project using make)
+
+starting contest
+
+**********************************************************************
+
+Test contest
+contest
+
+**********************************************************************
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-contest/generate -s 0 -n 1000000 -o /tmp/tmp97Hf8z/p/infile
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.481145858765 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.479160785675 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.482697963715 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.473081111908 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.490284919739 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.482089042664 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.491738796234 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.491149902344 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.476696014404 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.493427038193 seconds
+Checking output
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-contest/generate -s 1 -n 1000000 -o /tmp/tmp97Hf8z/p/infile
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.488898038864 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.476243019104 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.476279973984 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.472481966019 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.486994981766 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.483863830566 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.490264892578 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.478657960892 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.479466915131 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.472980976105 seconds
+Checking output
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-contest/generate -s 2 -n 1000000 -o /tmp/tmp97Hf8z/p/infile
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.508188009262 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.490400075912 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.48446893692 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.485373020172 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.495275020599 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.500194072723 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.481942176819 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.480656862259 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.486812114716 seconds
+Checking output
+Running rangesort with range [1, 100000000]
+/tmp/tmp97Hf8z/p/rangesort -i /tmp/tmp97Hf8z/p/infile -o /tmp/tmp97Hf8z/p/outfile -l 1 -h 100000000
+Rangesort completed in 0.481549024582 seconds
+Checking output
+best   0.472481966019
+median 0.483280897141
+worst  0.508188009262
+
+
+test contest PASSED
+ (contest)
+
+**********************************************************************
+Summary:
+test build PASSED
+ (build project using make)
+
+test contest PASSED
+ (contest)
+
+Passed 2 of 2 tests.
+Overall 2 of 2

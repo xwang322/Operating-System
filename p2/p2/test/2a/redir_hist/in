@@ -1,0 +1,3 @@
+/bin/ls /u/ > 1.txt
+!1
+cat 1.txt
